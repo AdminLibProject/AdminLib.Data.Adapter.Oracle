@@ -1,0 +1,1 @@
+S:\Projects\AdminLib Project\AdminLib.Data.Store.Oracle\AdminLib.DatabaseAdapter.Oracle\obj\Release\AdminLib.DatabaseAdapter.Oracle.csprojResolveAssemblyReference.cache
