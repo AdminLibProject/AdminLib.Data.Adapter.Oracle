@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Xml.XPath;
 
-namespace AdminLib.Data.Store.Oracle {
+namespace AdminLib.Data.Adapter.Oracle {
 
     public class Configuration: AdapterConfiguration {
 

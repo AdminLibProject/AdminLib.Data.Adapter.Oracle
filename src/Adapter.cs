@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using AdminLib.Data.Query;
-using AdminLib.Data.Store.Oracle.Exception;
+using AdminLib.Data.Adapter;
+using AdminLib.Data.Adapter.Oracle.Exception;
 
-namespace AdminLib.Data.Store.Oracle {
+namespace AdminLib.Data.Adapter.Oracle {
 
-    [AdapterDeclaration("AdminLib.Data.Store.Oracle")]
     public class Adapter : SQLAdapter {
 
         /******************** Attributes ********************/

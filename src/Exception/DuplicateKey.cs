@@ -2,7 +2,7 @@
 using AdminLib.Data.Query.Exception;
 using AdminLib.Data.Query;
 
-namespace AdminLib.Data.Store.Oracle.Exception {
+namespace AdminLib.Data.Adapter.Oracle.Exception {
 
     public class DuplicateKey : QueryException {
 

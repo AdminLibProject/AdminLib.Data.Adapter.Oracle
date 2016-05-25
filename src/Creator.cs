@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using AdminLib.Data.Store;
+using AdminLib.Data.Adapter;
 
-namespace AdminLib.Data.Store.Oracle {
-    public class Creator : AdminLib.Data.Store.Adapter.ICreator {
+namespace AdminLib.Data.Adapter.Oracle {
+    public class Creator : AdminLib.Data.Adapter.Adapter.ICreator {
 
         public string name {get; private set; }
 
@@ -15,7 +15,7 @@ namespace AdminLib.Data.Store.Oracle {
         }
 
         /******************** Method ********************/
-        public Store.Adapter GetNewAdapter(Configuration configuration) {
+        public Data.Adapter.Adapter GetNewAdapter(Configuration configuration) {
             Adapter oracleAdapter;
 
             oracleAdapter = new Adapter ( configuration : configuration);
@@ -23,7 +23,7 @@ namespace AdminLib.Data.Store.Oracle {
             return oracleAdapter;
         }
 
-        public Store.Adapter GetNewAdapter(AdapterConfiguration configuration, bool autoCommit)
+        public Data.Adapter.Adapter GetNewAdapter(AdapterConfiguration configuration, bool autoCommit)
         {
             
             if (!(configuration is Configuration))
