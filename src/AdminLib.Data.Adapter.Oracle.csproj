@@ -65,6 +65,7 @@
     <ProjectReference Include="..\..\AdminLib.Data.Adapter.SQL\src\AdminLib.Data.Adapter.SQL.csproj">
       <Project>{3236f2c8-386d-4072-ab27-d17d6730c7ee}</Project>
       <Name>AdminLib.Data.Adapter.SQL</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
     <ProjectReference Include="..\..\AdminLib\src\AdminLib.csproj">
       <Project>{8cce3667-718f-408a-9b37-fc0f5775d363}</Project>
