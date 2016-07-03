@@ -46,7 +46,7 @@ namespace AdminLib.Data.Adapter.Oracle {
         public static void Declare() {
             Creator creator;
 
-            if (Adapter.creator == null)
+            if (Adapter.creator != null)
                 throw new System.Exception("Already declared");
 
             creator = new Creator("AdminLib.Data.Store.Oracle");
